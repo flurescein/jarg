@@ -1,0 +1,35 @@
+{
+  "name": "jarg",
+  "version": "0.1.0",
+  "description": "JavaScript template engine powered by arrays",
+  "main": "./lib/jarg.js",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flurescein/jarg.git"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "arrays",
+    "jargon",
+    "html"
+  ],
+  "author": "flurescein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flurescein/jarg/issues"
+  },
+  "homepage": "https://github.com/flurescein/jarg#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "^3.0.4"
+  }
+}
