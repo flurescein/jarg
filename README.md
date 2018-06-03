@@ -3,10 +3,15 @@ JavaScript template engine powered by arrays, inspired by Clojure.
 
 ## Target languages
 ### HTML
-#### Structure
+#### Using
 ```js
-['tagName', { optionalObjectWithAttributes },
-  anotherTagsOrJustText]
+const html = require('jarg').html 
+
+const template =
+  ['tagName', { optionalObjectWithAttributes },
+    anotherTagsOrJustText]
+
+html(template) // => HTML string
 ```
 #### Example
 ```js
